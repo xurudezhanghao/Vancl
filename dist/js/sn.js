@@ -1,0 +1,15 @@
+console.log("加载完成");
+/*需要加入的模块*/
+require.config({
+	paths:{
+		"jquery":"jquery-1.11.3",
+		"jquery-cookie":"jquery.cookie",
+		"sign":"sign"
+	},
+	shim:{
+		"jquery-cookie":["jquery"],
+	}
+})
+require(['sign'],function(sign){
+	sign.sign();
+})

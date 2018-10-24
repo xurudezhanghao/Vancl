@@ -1,0 +1,186 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+i {
+  font-style: normal; }
+
+/* 头部  */
+header {
+  width: 1263px;
+  height: 66px;
+  overflow: hidden; }
+
+header div {
+  width: 1200px;
+  height: 55px;
+  margin: 0 auto;
+  line-height: 56px;
+  margin-top: 10px;
+  border-bottom: 1px solid #666; }
+
+header div a:first-child {
+  width: 183px;
+  height: 44px;
+  float: left;
+  display: block;
+  margin-top: 10px; }
+
+header div a:last-child {
+  float: right;
+  font-size: 12px;
+  color: #000; }
+
+/* 内容 */
+.content {
+  width: 1263px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 20px; }
+
+.content_top {
+  width: 1200px;
+  height: 37px;
+  position: relative;
+  margin-top: 50px; }
+
+.content_top h2 {
+  width: 415px;
+  height: 37px;
+  margin-right: 40px;
+  float: right;
+  font-weight: normal;
+  border-bottom: 2px solid #bb2b34; }
+
+.content_top h2 span {
+  height: 37px;
+  font-size: 20px;
+  color: #979797;
+  line-height: 37px;
+  float: left; }
+
+.content_top h2 p {
+  width: 160px;
+  height: 37px;
+  line-height: 37px;
+  display: block;
+  color: #979797;
+  font-size: 14px;
+  float: right; }
+
+.content_top p a {
+  color: #bb2b34; }
+
+.content_left {
+  width: 465px;
+  height: 352px;
+  margin: 40px 0 0 150px;
+  background: blue;
+  float: left; }
+
+.content_right {
+  width: 415px;
+  margin: 18px 100px 0 0;
+  float: right; }
+
+.content_right .sign {
+  width: 415px;
+  height: 260px;
+  margin: 10px auto; }
+
+.content_right .sign input {
+  height: 45px;
+  border: 1px solid #d1d1d1;
+  padding: 0 10px;
+  font-size: 14px;
+  float: left; }
+
+.sign .Vcode {
+  width: 240px;
+  float: left; }
+
+.content_right #testCode {
+  width: 130px;
+  height: 45px;
+  margin: 0 0 0 20px;
+  line-height: 45px;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid #d1d1d1;
+  background: #fff;
+  color: #bb2b34;
+  font-weight: bolder;
+  cursor: pointer; }
+
+.sign p {
+  float: left;
+  display: block;
+  width: 414px;
+  color: #fff;
+  font-size: 12px; }
+
+.sign .phnum {
+  width: 240px; }
+
+.sign a:nth-of-type(1) {
+  display: block;
+  width: 130px;
+  height: 45px;
+  margin: 0 0 0 20px;
+  line-height: 45px;
+  font-size: 14px;
+  float: left;
+  text-align: center;
+  border: 1px solid #d1d1d1;
+  background: #eee;
+  color: #bb2b34; }
+
+.sign .phVcode {
+  width: 392px; }
+
+.sign .PW {
+  width: 392px; }
+
+.sign .APW {
+  width: 392px; }
+
+.content_right .sign .sign_in {
+  width: 414px;
+  height: 45px;
+  background: #666;
+  display: block;
+  float: left;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+  margin-top: 10px;
+  font-size: 20px; }
+
+/* 底部 */
+.footer_area {
+  width: 100%;
+  height: 136px;
+  border-top: 2px solid #3e3a39;
+  float: left; }
+
+.footer_bottom {
+  height: 60px;
+  text-align: center;
+  line-height: 30px; }
+
+.footer_bottom p {
+  color: #3e3a39;
+  font-size: 12px; }
+
+.subFooter {
+  line-height: 30px;
+  text-align: center;
+  margin-top: 20px; }

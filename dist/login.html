@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>凡客诚品—会员登录</title>
+	<link rel="stylesheet" href="css/login.min.css">
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<script src="js/require.js" async="true" defer data-main ="js/main"></script>
+	<script src = "iconfont/iconfont.js"></script>	
+</head>
+<body>
+<!-- 头部 -->
+	<header>
+		<div>
+			<a href="index.html"><img src="images/nav-1.jpg" alt=""></a>
+			<a href="">帮助</a>
+		</div>
+	</header>
+<!-- 内容 -->
+	<div class = "content">
+		<div class = "content_top">
+			<span>凡客Vancl登录</span>
+			<p>没有账号免费<a href="sign.html">注册</a></p>
+		</div>
+		<div class = "content_left">
+			<img src="images/login1.jpg" alt="">
+		</div>
+		<div class = "content_right">
+			<div class = "top">
+				<ul>
+					<li class = "on" id = "pLogin">普通登录</li>
+					<li class ="" id = "qLogin">快速登录</li>
+				</ul>
+			</div>
+			<form action="" class = "login">
+				<input type="text" placeholder="请输入用户名" name = 'username' class = "username">
+				<input type="passeord" placeholder="请输入密码" name = 'password' class = "password">
+				<a href="">找回密码</a>
+				<div class = "LO" id = "LO">登录</div>
+			</form>
+			<form action="" class = "quickLogin">
+				<input type="text" placeholder="输入手机号">
+				<a href="">获取短信验证码</a>
+				<input type="text" placeholder="验证码">
+				<div id="testCode"></div>
+				<p id = "p3">看不清？换一张</p>
+				<input type="text" placeholder="请输入手机验证码">
+				<a href="">登录</a>
+			</form>
+			<div class = "bottom">
+				<h2>使用合作网站账号登录凡客</h2>
+				<a href="https://login.vancl.com/login/wxlogin.aspx?http%3A%2F%2Fwww.vancl.com%2F">
+					<svg class = "icon" aria-hidden ="true">
+						<use xlink:href ="#icon-weixin"></use>
+					</svg>
+				</a>
+				<a href="">
+					<svg class = "icon" aria-hidden ="true">
+						<use xlink:href ="#icon-xiaomi"></use>
+					</svg>
+				</a>
+				<a href="">
+					<svg class = "icon" aria-hidden ="true">
+						<use xlink:href ="#icon-zhifubao"></use>
+					</svg>
+				</a>
+				<a href="">
+					<svg class = "icon" aria-hidden ="true">
+						<use xlink:href ="#icon-qq"></use>
+					</svg>
+				</a>
+				<a href="">
+					<svg class = "icon" aria-hidden ="true">
+						<use xlink:href ="#icon-anquanweishi"></use>
+					</svg>
+				</a>
+				<a href="">
+					<svg class = "icon" aria-hidden ="true">
+						<use xlink:href ="#icon-xinlangweibo"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>	
+	<div class = "footer_area">
+		<div class = "footer_bottom">
+			<p>Copyright 2007-2018 vancl.com All Right Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+			<p>凡客诚品（北京）科技有限公司</p>
+		</div>
+		<div class = "subFooter">
+			<a href="#"><img src="images/bottom-1.jpg" alt=""></a>
+			<span><img src="images/bottom-2.jpg" alt=""></span>
+			<a href=""><img src="images/bottom-3.jpg" alt=""></a>
+			<a href=""><img src="images/bottom-4.jpg" alt=""></a>
+			<a href=""><img src="images/bottom-5.jpg" alt=""></a>
+			<a href=""><img src="images/bottom-6.jpg" alt=""></a>
+		</div>
+	</div>
+</body>
+</html>

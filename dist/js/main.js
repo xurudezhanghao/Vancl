@@ -1,0 +1,25 @@
+console.log("加载完成");
+/*需要加入的模块*/
+require.config({
+	paths:{
+		"jquery":"jquery-1.11.3",
+		"jquery-cookie":"jquery.cookie",
+		"subMenu":"subMenu",
+		"scroll":"scroll",
+		"seckill_content":"seckill_content",
+		"login":"login",
+		"details":"details",
+		"shoppingCar":"shoppingCar"
+	},
+	shim:{
+		"jquery-cookie":["jquery"]
+	}
+})
+require(["subMenu", "scroll", 'seckill_content','login','details','shoppingCar'],function(subMenu, scroll, seckill_content,login,details,shoppingCar){
+	subMenu.subMenu();
+	scroll.scroll();
+	seckill_content.seckill_content();
+	login.login();
+	details.details();
+	shoppingCar.shoppingCar();
+})
